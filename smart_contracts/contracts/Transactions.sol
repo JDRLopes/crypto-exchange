@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 
 contract Transactions {
 
-    event Transfer (address from, address receiver, uint amount, string message, uint timestamp, string keyword);  
+    event Transfer (address from, address receiver, uint amount, string message, uint timestamp, string keywords);  
 
     struct TranferStruct {
         address sender;
